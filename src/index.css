@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.titleText {
+  font-size: 35px;
+  color: grey;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.btn-circle {
+  margin-left: 15px;
+}
+
+.appTitleText {
+  font-size: 35px;
+  color: dimgray;
+  text-align: center;
+  position: relative;
+}
+
+.navbarTitle {
+  font-size: 25px;
+  color: dimgray;
+  text-align: center;
+  position: relative;
+}
+
+.tableStyle {
+  margin-top: 25px;
+}
+
+.internalServer {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #c72d2d;
+}
+
+.modal-header {
+  margin: 0;
+  line-height: 1.42857143;
+  font-size: 30px;
+  text-align: center;
+}
+
+.modal-body p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 500px !important;
+    margin: 20% auto !important;
+  }
+}
+
+em {
+  color: red;
+  margin: 5px 0;
+}
+
+.divform {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 850px;
+  /* border: thin solid black; */
+}
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
